@@ -7,7 +7,7 @@ public class Biblioteca {
     public void agregarLibro(Libro nuevoLibro) {
         if (contador < coleccion.length) {
             coleccion[contador] = nuevoLibro;
-            contador++; // Avanzamos al siguiente cajón disponible
+            contador++; 
         } else {
             System.out.println("Error: La biblioteca está llena.");
         }
